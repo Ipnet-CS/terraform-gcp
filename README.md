@@ -12,6 +12,7 @@ Create a terraform.tfvars with your credentials and default region.
  * terraform init
  * terraform plan -var="project=seu-projeto-id" -var="credentials_file=path/para/seu/arquivo/credenciais.json"
  * terraform apply -var="project=seu-projeto-id" -var="credentials_file=path/para/seu/arquivo/credenciais.json"
+ * terraform destroy
 
  ### Dependencies
 
