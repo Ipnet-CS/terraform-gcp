@@ -26,12 +26,13 @@ Create a terraform.tfvars with your credentials and default region.
 
 ## Help
 
-ipnet team sustentação
+Delivery Team 
 
 ## Authors
 
 Contributors names and contact info
 
+rogerio.carvalho@ipnet.cloud
 
 ## Version History
 
