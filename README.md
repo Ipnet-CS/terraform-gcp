@@ -9,24 +9,16 @@ Create a terraform.tfvars with your credentials and default region.
 
 ## Getting Started
 
- * terraform get -update
  * terraform init
- * terraform plan
- * terraform apply
-
-## Running Modules Steps
-
- * 
- * 
- * 
-
- [Modules](https://developer.hashicorp.com/terraform/language/modules/syntax)
+ * terraform plan -var="project=seu-projeto-id" -var="credentials_file=path/para/seu/arquivo/credenciais.json"
+ * terraform apply -var="project=seu-projeto-id" -var="credentials_file=path/para/seu/arquivo/credenciais.json"
 
  ### Dependencies
 
 * Terraform.
 * tfenv
-* Account GCP
+* Account GCP autorizada para uso e um projeto criado
+* Ative a API do Compute Engine e obtenha um arquivo de credenciais JSON para autenticação.
 
 ### Executing program
 
